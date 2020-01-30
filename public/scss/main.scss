@@ -1,0 +1,81 @@
+// Libs
+@import "libs/bulma";
+
+
+.user-information-list {
+
+	td {
+		line-height: 32px;
+		padding: 4px 0px;
+	}
+}
+
+.boxed {
+	-moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    color: #363636;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 14px;
+    height: 32px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    line-height: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: relative;
+    vertical-align: top;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    white-space: nowrap;
+
+    &.is-user {
+		background-color: transparent;
+		border-color: #3273dc;
+		border-width: 1px;
+		color: #3273dc;
+	}
+
+	&.is-premium {
+	    background-color: transparent;
+	    border-color: #ffdd57;
+	    border-width: 1px;
+	    color: #ffdd57;
+	}
+
+	&.is-admin {
+		background-color: transparent;
+		border-color: #23d160;
+		border-width: 1px;
+		color: #23d160;
+	}
+    
+    &.is-price {
+        background-color: transparent;
+        border-color: #23d160;
+        border-width: 1px;
+        color: #23d160;
+        font-weight: bold;
+    }
+
+    &.is-inline {
+        vertical-align: baseline;
+    }
+}
